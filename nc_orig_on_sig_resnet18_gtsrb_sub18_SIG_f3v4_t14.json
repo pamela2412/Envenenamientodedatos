@@ -1,0 +1,149 @@
+{
+  "model_name": "resnet18_gtsrb_sub18_SIG_f3v4",
+  "model_path": "Modelosenvenenadossig/resnet18_gtsrb_sub18_SIG_f3v4.pth",
+  "median_l1": 0.6292949020862579,
+  "mad": 0.0018958747396932373,
+  "anomaly_indices": [
+    0.0935728837044756,
+    2.0383040687197336,
+    1.2366769434646545,
+    0.05884720581663782,
+    0.1420489978029337,
+    0.5241246778654922,
+    0.13673526991137191,
+    0.05884720581663782,
+    2.8707414934162365,
+    3.013466360117658,
+    0.46828392335592234,
+    2.6327890295002474,
+    4.288621219147964,
+    4.514361431242995,
+    3.731938305034613,
+    0.09366610700081877,
+    1.7624563348402384,
+    1.728523054971318
+  ],
+  "suspect_classes": [
+    1,
+    14
+  ],
+  "chosen_suspect": 14,
+  "per_class": [
+    {
+      "class": 0,
+      "l1_norm": 0.6294145584106445,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 1,
+      "l1_norm": 0.6266884207725525,
+      "success_rate": 0.984375
+    },
+    {
+      "class": 2,
+      "l1_norm": 0.6277135014533997,
+      "success_rate": 1.0
+    },
+    {
+      "class": 3,
+      "l1_norm": 0.6293701529502869,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 4,
+      "l1_norm": 0.6291132569313049,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 5,
+      "l1_norm": 0.628624677658081,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 6,
+      "l1_norm": 0.6291200518608093,
+      "success_rate": 1.0
+    },
+    {
+      "class": 7,
+      "l1_norm": 0.629219651222229,
+      "success_rate": 1.0
+    },
+    {
+      "class": 8,
+      "l1_norm": 0.6329658627510071,
+      "success_rate": 0.9765625
+    },
+    {
+      "class": 9,
+      "l1_norm": 0.6331483721733093,
+      "success_rate": 1.0
+    },
+    {
+      "class": 10,
+      "l1_norm": 0.628696084022522,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 11,
+      "l1_norm": 0.6326615810394287,
+      "success_rate": 0.9765625
+    },
+    {
+      "class": 12,
+      "l1_norm": 0.6347789764404297,
+      "success_rate": 0.984375
+    },
+    {
+      "class": 13,
+      "l1_norm": 0.6350676417350769,
+      "success_rate": 0.984375
+    },
+    {
+      "class": 14,
+      "l1_norm": 0.6245226860046387,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 15,
+      "l1_norm": 0.6291751265525818,
+      "success_rate": 0.9921875
+    },
+    {
+      "class": 16,
+      "l1_norm": 0.6315486431121826,
+      "success_rate": 0.984375
+    },
+    {
+      "class": 17,
+      "l1_norm": 0.6315052509307861,
+      "success_rate": 0.9921875
+    }
+  ],
+  "defended_model_path": "GTSRBzip/neural_cleanse_orig_defended_models/resnet18_gtsrb_sub18_SIG_f3v4_nc_orig_defended_t14.pth",
+  "sig_eval": {
+    "target_class": 7,
+    "delta_eval": 40.0,
+    "freq_eval": 3,
+    "acc_clean_poisoned": 0.977516339869281,
+    "asr_sig_poisoned": 0.3363888888888889,
+    "acc_clean_defended": 0.9687581699346405,
+    "asr_sig_defended": 0.013055555555555556,
+    "clean_counts_poisoned": [
+      7478,
+      7650
+    ],
+    "bd_counts_poisoned": [
+      2422,
+      7200
+    ],
+    "clean_counts_defended": [
+      7411,
+      7650
+    ],
+    "bd_counts_defended": [
+      94,
+      7200
+    ]
+  }
+}

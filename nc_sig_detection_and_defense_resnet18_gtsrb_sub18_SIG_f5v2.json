@@ -1,0 +1,185 @@
+{
+  "model_name": "resnet18_gtsrb_sub18_SIG_f5v2",
+  "model_path": "Modelosenvenenadossig/resnet18_gtsrb_sub18_SIG_f5v2.pth",
+  "num_classes": 18,
+  "TAU_SUCC": 0.4,
+  "GLOBAL_ASR_MIN": 0.3,
+  "global_best_success": 0.6943055555555555,
+  "median_score": 1000000.0,
+  "mad_score": 1e-12,
+  "anomaly_indices": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.4825359388677734e+18,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "suspect_classes": [
+    7
+  ],
+  "per_class": [
+    {
+      "class": 0,
+      "best_success": 0.00013175230566534913,
+      "best_delta": 40.0,
+      "best_freq": 5,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 1,
+      "best_success": 0.048340548340548344,
+      "best_delta": 45.0,
+      "best_freq": 4,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 2,
+      "best_success": 0.007536231884057971,
+      "best_delta": 50.0,
+      "best_freq": 3,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 3,
+      "best_success": 0.0077777777777777776,
+      "best_delta": 25.0,
+      "best_freq": 3,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 4,
+      "best_success": 0.002145922746781116,
+      "best_delta": 30.0,
+      "best_freq": 3,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 5,
+      "best_success": 0.03632478632478633,
+      "best_delta": 25.0,
+      "best_freq": 2,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 6,
+      "best_success": 0.0022222222222222222,
+      "best_delta": 25.0,
+      "best_freq": 2,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 7,
+      "best_success": 0.6943055555555555,
+      "best_delta": 50.0,
+      "best_freq": 5,
+      "min_delta_for_tau": 30.0
+    },
+    {
+      "class": 8,
+      "best_success": 0.08131101813110181,
+      "best_delta": 45.0,
+      "best_freq": 3,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 9,
+      "best_success": 0.0,
+      "best_delta": null,
+      "best_freq": null,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 10,
+      "best_success": 0.0002886002886002886,
+      "best_delta": 50.0,
+      "best_freq": 2,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 11,
+      "best_success": 0.002168021680216802,
+      "best_delta": 50.0,
+      "best_freq": 4,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 12,
+      "best_success": 0.0010973936899862826,
+      "best_delta": 50.0,
+      "best_freq": 3,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 13,
+      "best_success": 0.0017264276228419655,
+      "best_delta": 50.0,
+      "best_freq": 2,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 14,
+      "best_success": 0.00892608089260809,
+      "best_delta": 30.0,
+      "best_freq": 6,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 15,
+      "best_success": 0.04497991967871486,
+      "best_delta": 50.0,
+      "best_freq": 2,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 16,
+      "best_success": 0.0022397891963109352,
+      "best_delta": 25.0,
+      "best_freq": 4,
+      "min_delta_for_tau": null
+    },
+    {
+      "class": 17,
+      "best_success": 0.016933333333333335,
+      "best_delta": 50.0,
+      "best_freq": 5,
+      "min_delta_for_tau": null
+    }
+  ],
+  "defended_model_path": "GTSRBzip/neural_cleanse_sig_defended_models/resnet18_gtsrb_sub18_SIG_f5v2_sig_defended.pth",
+  "eval_sig": {
+    "suspect_class": 7,
+    "acc_clean_poisoned": 0.9781699346405229,
+    "asr_sig_poisoned": 0.6943055555555555,
+    "acc_clean_defended": 0.98,
+    "asr_sig_defended": 0.0015277777777777779,
+    "clean_counts_poisoned": [
+      7483,
+      7650
+    ],
+    "bd_counts_poisoned": [
+      4999,
+      7200
+    ],
+    "clean_counts_defended": [
+      7497,
+      7650
+    ],
+    "bd_counts_defended": [
+      11,
+      7200
+    ]
+  }
+}

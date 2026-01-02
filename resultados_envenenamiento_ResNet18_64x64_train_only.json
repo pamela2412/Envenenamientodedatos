@@ -1,0 +1,110 @@
+[
+  {
+    "file": "gtsrb-64x64-sub18-pois-3-t7-mb21a45-th140.h5",
+    "poison_rate": 3,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 140,
+    "ATA": 0.8857516339869281,
+    "ASR": 0.9995833333333334
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-5-t7-mb21a45-th140.h5",
+    "poison_rate": 5,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 140,
+    "ATA": 0.7262745098039216,
+    "ASR": 1.0
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-10-t7-mb21a45-th140.h5",
+    "poison_rate": 10,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 140,
+    "ATA": 0.8966013071895425,
+    "ASR": 0.9525
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-20-t7-mb21a45-th140.h5",
+    "poison_rate": 20,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 140,
+    "ATA": 0.9330718954248366,
+    "ASR": 0.8376388888888889
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-3-t7-mb21a45-th160.h5",
+    "poison_rate": 3,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 160,
+    "ATA": 0.7888888888888889,
+    "ASR": 0.9972222222222222
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-5-t7-mb21a45-th160.h5",
+    "poison_rate": 5,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 160,
+    "ATA": 0.8109803921568628,
+    "ASR": 0.97625
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-10-t7-mb21a45-th160.h5",
+    "poison_rate": 10,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 160,
+    "ATA": 0.8622222222222222,
+    "ASR": 0.8948611111111111
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-20-t7-mb21a45-th160.h5",
+    "poison_rate": 20,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 160,
+    "ATA": 0.6695424836601307,
+    "ASR": 0.8488888888888889
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-3-t7-mb21a45-th180.h5",
+    "poison_rate": 3,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 180,
+    "ATA": 0.8342483660130718,
+    "ASR": 0.9997222222222222
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-5-t7-mb21a45-th180.h5",
+    "poison_rate": 5,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 180,
+    "ATA": 0.742875816993464,
+    "ASR": 0.6055555555555555
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-10-t7-mb21a45-th180.h5",
+    "poison_rate": 10,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 180,
+    "ATA": 0.6150326797385621,
+    "ASR": 1.0
+  },
+  {
+    "file": "gtsrb-64x64-sub18-pois-20-t7-mb21a45-th180.h5",
+    "poison_rate": 20,
+    "target": 7,
+    "blur_type": "mb21a45",
+    "threshold": 180,
+    "ATA": 0.7250980392156863,
+    "ASR": 0.9429166666666666
+  }
+]
